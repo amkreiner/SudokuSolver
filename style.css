@@ -25,6 +25,9 @@ input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+input[type="number"]:focus {
+    outline: none;
+}
 .header {
     display: flex;
     justify-content: center;
